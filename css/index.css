@@ -111,6 +111,17 @@ body {
     line-height: 4vmax;
   
 }
+#changing-text::before{
+    content: "";
+    position: absolute;
+    top: -2%;
+    left: 63%;
+    height: 36%;
+    width: 35%;
+    background-color: red;
+    border-left: 2px solid #D65A31;
+    animation : animation 4s steps(12) infinite;
+}
 .personal-information strong{
     background-color: #D65A31;
     padding: 1vmax 0.5vmax;
@@ -160,7 +171,7 @@ body {
     align-content: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 10vmax;
+    margin-top: 70vmax;
     margin-bottom: 10vmax;
 }
 .social-icons-container a{
@@ -267,6 +278,79 @@ body {
 .game-button{
     margin-top:3vmax ;
 }
+.about-me-container{
+    display: flex;
+    width: 59%;
+    margin: auto;
+    padding-left: 16vmax;
+    margin-top: 15vmax;
+
+}
+#about-me-heading{
+  
+}
+.about-me-heading {
+    color: #d65a31d0;
+    font-size: 5vmax;
+    font-weight: bold;
+    position: absolute;
+    z-index: 1;
+    margin: -4vmax -18vmax;
+   
+    text-shadow: 690px 189px 0px rgb(255 255 255 / 12%);
+}
+.about-me-content{
+    text-align: center;
+    font-size: 1vmax;
+}
+.about-me-content strong{
+    background-color: #D65A31;
+    
+    border-radius: 1.5vmax;
+    color: #222831;
+    line-height: 1.3vmax;
+}
+.game-container{
+    margin-top: 20vmax;
+}
+.game-heading-title{
+    color: #d65a31d0;
+    font-size: 5vmax;
+    font-weight: bold;
+    position: absolute;
+    z-index: 1;
+    margin: -9vmax 9vmax;
+    text-shadow: 795px 239px 0px rgb(255 255 255 / 12%);
+
+}
+#suprise-title{
+    margin-top: 10vmax;
+    color: #cecece;
+    font-size: 1.2vmax;
+    font-weight: 600;
+}
+.surprise-button{
+    animation: shake 1s infinite;
+}
+.rick-roll-container{
+    margin-top: 40vmax;
+    
+}
+.rick-roll-title{
+    font-size: 3vmax;
+    margin: -0vmax 9vmax;
+}
+.rick-roll-img{
+    width: 30%;
+}
+@keyframes shake {
+    0% { transform: translateY(0); }
+    25% { transform: translateY(-10px); }
+    50% { transform: translateY(10px); }
+    75% { transform: translateY(-10px); }
+    100% { transform: translateX(0); }
+  }
+  
 @media screen  and (max-width:750px){ 
     .arrow {
         width: 60px;
@@ -360,6 +444,9 @@ body {
     padding: 1vmax 1vmax;
     width: 7vmax;
     cursor: pointer;
+}
+.about-me-content{
+    
 }
  
    

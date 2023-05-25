@@ -24,7 +24,6 @@
       </div>
       <div class="navigation-menu">
         <ul>
-          <li class="nav-item"><a href="">About Me</a></li>
           <li class="nav-item"><a href="">Projects</a></li>
           <li class="nav-item"><a href="">Videos</a></li>
           <li class="nav-item"><a href="">Contact</a></li>
@@ -71,7 +70,7 @@
 
     <div class="personal-information" id="personal-information">
       <p data-aos="zoom-in-up">
-        I'm a young learning <strong>developer</strong> and
+        I'm a young learning <strong >developer</strong> and
         <strong>video editor</strong> on the internet.
       </p>
       <div
@@ -81,14 +80,82 @@
         data-aos-duration="1000"
       ></div>
     </div>
+    <div class="about-me-container">
+      <div class="about-me-heading" data-aos="fade-right"
+      data-aos-delay="100"
+      data-aos-duration="3000">
+        ABOUT ME
+      </div>
+      <!-- <div class="about-me-heading-shadow" >
+        ABOUT ME
+      </div> -->
+      <div class="about-me-content" id="about-me-content">
+        Hello, I'm Faran Zafar, a second-year Computer Science student with a passion for <strong>programming and software development</strong>. I have gained comprehensive knowledge and practical experience through my degree studies and various work experiences. I specialize in <strong>front-end web development using HTML, CSS, and JavaScript</strong> , and I have experience working with platforms like <strong> Wix, Shopify, and WordPress</strong>. Additionally, I have skills in <strong>back-end development using PHP, SQL, and Spring Boot.</strong>   I am dedicated to personal and professional growth and actively stay up-to-date with the latest advancements in technology.
 
-    <center data-aos="fade-up" data-aos-delay="70" data-aos-duration="1000" style="margin-top: 10vmax;" id="game-center-div" >
+      </div>
+      
+    </div>
+
+    <center  style="margin-top: 10vmax;" id="game-center-div" >
+      
       <svg class="arrow">
         <path class="a1" d="M0 0 L30 22 L60 0"></path>
         <path class="a2" d="M0 20 L30 42 L60 20"></path>
         <path class="a3" d="M0 40 L30 62 L60 40"></path>
       </svg>
-      <a href="game.html" style="text-decoration: none;;"><button class="learn-more-button game-button"  >Play a Game</button></a>
+      
+  </center>
+
+
+
+  <center class="game-container">
+    <div class="about-me-heading game-heading-title" data-aos="fade-up"
+    data-aos-delay="100"
+    data-aos-duration="3000">
+      GAME TIME :)
+    </div>
+
+    <a href="game.html" style="text-decoration: none;;"><button class="learn-more-button game-button"  >Play a Game</button></a>
+  </center>
+
+  <center style="margin-top: 20vmax;"  >
+      
+    <svg class="arrow">
+      <path class="a1" d="M0 0 L30 22 L60 0"></path>
+      <path class="a2" d="M0 20 L30 42 L60 20"></path>
+      <path class="a3" d="M0 40 L30 62 L60 40"></path>
+    </svg>
+    
+</center>
+
+
+  <center>
+      <p id="suprise-title">KEEP SCROLLING I HAVE A SURPISE FOR YOU :)</p>
+  </center>
+
+  <center class="game-container">
+    <div class="about-me-heading game-heading-title" data-aos="fade-up"
+    data-aos-delay="100"
+    data-aos-duration="3000">
+      SURPRISEE !
+    </div>
+
+    <a  style="text-decoration: none;;"><button onclick="audio.play();scrollToSection('rick-roll-title')" class="learn-more-button game-button surprise-button"  >Click Me !</button></a>
+  </center>
+
+  <center class="rick-roll-container" id="rick-roll-title" >
+    <div class="about-me-heading rick-roll-title" data-aos="flip-left"
+    data-aos-delay="100"
+    data-aos-duration="1000">
+      YOU JUST GOT RICK ROLLED !!!!!!
+    </div>
+    <img class="rick-roll-img" src="img/giphy.gif" alt="">
+    <div class="about-me-heading rick-roll-title" data-aos="flip-right"
+    data-aos-delay="100"
+    data-aos-duration="1000">
+      YOU JUST GOT RICK ROLLED !!!!!!
+    </div>
+
   </center>
 
     <div class="social-icons-container" data-aos="fade-right"
@@ -118,8 +185,24 @@
             });
         }
     </script>
+    <script>
+      const audio = new Audio()
+      audio.src = "./sound/Rick Roll (Never Gonna Give You Up) - Sound Effect.mp3"
+    </script>
+    <!-- for type writing effect -->
+    <!-- <script>
+      
+      var i=0,text;
+      text = ""
+      function typing(){
+        if(i<text.length){
+          document.getElementById("").innerHTML += text.charAt(i);
+          i++;
+        }
+        setTimeout(typing,50);
+      }
+      typing();
+
+    </script> -->
   </body>
 </html>
-<style>
- 
-</style>

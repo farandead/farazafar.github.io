@@ -3,13 +3,11 @@ var cursor = svg.createSVGPoint();
 var arrows = document.querySelector(".arrows");
 var randomAngle = 0;
 
-// center of target
 var target = {
 	x: 900,
 	y: 249.5
 };
 
-// target intersection line segment
 var lineSegment = {
 	x1: 875,
 	y1: 280,
@@ -17,7 +15,6 @@ var lineSegment = {
 	y2: 220
 };
 
-// bow rotation point
 var pivot = {
 	x: 100,
 	y: 250
@@ -29,11 +26,9 @@ aim({
 
 
 
-// set up start drag event
 window.addEventListener("mousedown", draw);
 
 function draw(e) {
-	// pull back arrow
 	randomAngle = (Math.random() * Math.PI * 0.03) - 0.015;
 	TweenMax.to(".arrow-angle use", 0.3, {
 		opacity: 1
@@ -46,13 +41,11 @@ function draw(e) {
 
 
 function aim(e) {
-	// get mouse position in relation to svg position and scale
 	var point = getMouseSVG(e);
 	point.x = Math.min(point.x, pivot.x - 7);
 	point.y = Math.max(point.y, pivot.y + 7);
 	var dx = point.x - pivot.x;
 	var dy = point.y - pivot.y;
-	// Make it more difficult by adding random angle each time
 	var angle = Math.atan2(dy, dx) + randomAngle;
 	var bowAngle = angle - Math.PI;
 	var distance = Math.min(Math.sqrt((dx * dx) + (dy * dy)), 50);
