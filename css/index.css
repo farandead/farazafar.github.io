@@ -287,7 +287,7 @@ body {
     }
     .arrow1 {
         position: absolute;
-        margin: 9px auto;
+        margin: -23px auto;
         left: 17%;
         width: 99px;
     }
@@ -300,6 +300,7 @@ body {
     .main-title-heading {
       
         width: 29%;
+        padding-right: 2vmax;
     }
     .personal-information {
        
@@ -325,7 +326,7 @@ body {
     .main-navigation-bar {
         
         flex-direction: column;
-    
+        padding-top: 5vmax;
         padding-right: 2vmax;
         
         -webkit-box-shadow: -4px 2px 30px -11px rgb(32, 32, 32);
@@ -345,10 +346,8 @@ body {
        
     }
     .learn-more-button {
-        
-        margin-top: 24vmax;
-        font-size: 2vmax;
-        
+        margin-top: 19vmax;
+        font-size: 1.3vmax;
     }
     #hello-line{
         margin-bottom: 1vmax;
