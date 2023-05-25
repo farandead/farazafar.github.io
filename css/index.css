@@ -355,7 +355,6 @@ body {
     .arrow {
         width: 60px;
         height: 82px;
-        position: absolute;
         left: 42%;
         margin-left: 0px;
         bottom: 83%;
@@ -448,6 +447,55 @@ body {
 .about-me-content{
     
 }
+.about-me-container {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    padding-left: 0vmax;
+    margin-top: 15vmax;
+}
+.about-me-heading {
+    color: #d65a31d0;
+    font-size: 5vmax;
+    font-weight: bold;
+    position: absolute;
+    z-index: 1;
+    margin: -6vmax -6vmax;
+    text-shadow: 118px 366px 0px rgb(255 255 255 / 12%);
+}
+.about-me-content {
+    text-align: center;
+    font-size: 1.7vmax;
+}
+.game-container {
+    margin-top: 40vmax;
+}
  
-   
+   .game-container-mobile{
+    display: none;
+   }
+   .suprise-heading-title{
+    color: #d65a31d0;
+    font-size: 5vmax;
+    font-weight: bold;
+    position: absolute;
+    z-index: 1;
+    margin: -21vmax 2vmax;
+    text-shadow: 87px 321px 0px rgb(255 255 255 / 12%)
+   }
+   .rick-roll-container{
+    margin-top:100vmax ;
+   }
+   .rick-roll-img {
+    width: 94%;
+}
+.rick-roll-title{
+    color: #d65a31d0;
+    font-size: 4vmax;
+    font-weight: bold;
+    position: absolute;
+    z-index: 1;
+    margin: -9vmax 0vmax;
+    text-shadow: 0px 116px 0px rgb(255 255 255 / 80%);
+}
 }
