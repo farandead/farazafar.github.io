@@ -161,6 +161,7 @@ body {
     justify-content: center;
     flex-direction: column;
     margin-top: 10vmax;
+    margin-bottom: 10vmax;
 }
 .social-icons-container a{
     text-decoration: none;
@@ -299,6 +300,10 @@ body {
     .main-title-heading {
       
         width: 29%;
+    }
+    .personal-information p {
+        font-size: 3.8vmax;
+        line-height: 8vmax;
     }
     .arrow1 .point {
         position: absolute;
