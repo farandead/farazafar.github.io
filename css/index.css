@@ -419,7 +419,8 @@ body {
     }
     .navigation-menu .nav-item a {
         
-        font-size: 1.3vmax;
+        font-size: 1.7vmax;
+
     
     
     }
@@ -498,4 +499,8 @@ body {
     margin: -9vmax 0vmax;
     text-shadow: 0px 116px 0px rgb(255 255 255 / 80%);
 }
+.navigation-logo img {
+    width: 13vmax;
+}
+
 }
