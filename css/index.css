@@ -346,6 +346,9 @@ body {
         font-size: 1.3vmax;
         
     }
+    #hello-line{
+        margin-bottom: -2vmax;
+    }
    #game-center-div{
     margin-top: 20vmax;
    }
