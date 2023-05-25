@@ -301,6 +301,10 @@ body {
       
         width: 29%;
     }
+    .personal-information {
+       
+        margin-top: 51vmax;
+    }
     .personal-information p {
         font-size: 3.8vmax;
         line-height: 8vmax;
@@ -342,8 +346,8 @@ body {
     }
     .learn-more-button {
         
-        margin-top: 22vmax;
-        font-size: 1.3vmax;
+        margin-top: 24vmax;
+        font-size: 2vmax;
         
     }
     #hello-line{
