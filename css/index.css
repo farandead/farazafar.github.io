@@ -287,7 +287,7 @@ body {
     }
     .arrow1 {
         position: absolute;
-        margin: 69px auto;
+        margin: 9px auto;
         left: 17%;
         width: 99px;
     }
@@ -342,7 +342,7 @@ body {
     }
     .learn-more-button {
         
-        margin-top: 32vmax;
+        margin-top: 22vmax;
         font-size: 1.3vmax;
         
     }
