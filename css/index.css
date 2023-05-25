@@ -356,6 +356,12 @@ body {
    #game-center-div{
     margin-top: 20vmax;
    }
+   .social-icons-container img {
+    transition: all 0.2s ease-in-out;
+    padding: 1vmax 1vmax;
+    width: 7vmax;
+    cursor: pointer;
+}
  
    
 }
