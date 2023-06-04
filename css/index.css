@@ -323,6 +323,10 @@ body {
     text-shadow: 795px 239px 0px rgb(255 255 255 / 12%);
 
 }
+.suprise-heading-title{
+	
+    margin: -4vmax 6vmax;
+}
 #suprise-title{
     margin-top: 10vmax;
     color: #cecece;
